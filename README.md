@@ -5,7 +5,10 @@ designed to analyze and Visualize AIS data using the [NOAA AIS Data](https://coa
 
 The case here shared is based on 1st January 2020 and it has been cleaned and visuaslized specific cases using Folium and others libraries.
 
-(To be modified)
+This project provides a tool to obtain details it cannot be seen in AIS data when some of the table, mainly the static part (Vessel name - IMO - CallSign - etc) is lost or we have NaN value. The inspiring point to create this code is the fact that the MMSI is changeable and although the number of vessels exchanged flags is small (second hand market most probably), MSI cannot be the value to identify the ship targeted. For this purpose it is better to look at IMO number (Permanent value).The idea behind is to cross check the MMSI with the IMO associated and get the IMO number from another source of information. 
+
+We choose ShipInfo as a reference, but it could be another one, for example, Vessel Finder ( here we can extract via web Scraping techniques the GT and DWT, crucial parameters to classify vessels in subcategories like bulk carriers in Supramax, Panamax etc). Another source of info could be "DNV Register List" (website link depends on a DNV number, specific for any vessel), also Q88 website (here we can extract Society of Classification and Owner) , Lloyds Register list etc
+
 
 For any questions about this repository, please contact me via juan.fernandez.sea@gmail.com
 
@@ -37,4 +40,10 @@ discussed below.
 |matplotlib|3.8.3|PSFL|https://matplotlib.org/stable/users/project/license.html|
 |pandas|2.2.1|BSD-3|https://pandas.pydata.org|
 |numpy|1.3.0|BSD-3|https://numpy.org/doc/stable/index.html|
+|folium|0.16.0|MIT|https://pypi.org/project/folium/|
+|tqdm|4.64.4|MIT|https://tqdm.github.io|
+
+
+
+
 
