@@ -1,7 +1,7 @@
 # US AIS Vessel Static Parameters
 
 The **US AIS Vessel Static Parameterss** module consists of a python-based Jupyter-notebook 
-designed to analyze and Visualize AIS data using the [Danish Maritime Authority (DMA)](https://www.dma.dk/safety-at-sea/navigational-information/ais-data) historical data. These static values can be found in the DMA website, following the sections **Safety at Sea -> Navigational Information -> AIS Data -> Section 3 Historical Data**. The files are given in csv format and because they are quite big (around 3 GB), it could not be possible to attach here. However, the user can go freely to the website and download them.
+designed to analyze and Visualize AIS data using the [NOAA AIS Data](https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2020/index.html) historical data. The files are given in csv format and because they are quite big (around 3 GB each), it could not be possible to attach here. However, the user can go freely to the website and download them, as it is done in previous repositories.
 
 The case here shared is based on 1st January 2020 and it has been cleaned and visuaslized specific cases using Folium and others libraries.
 
