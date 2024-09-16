@@ -2,7 +2,7 @@
 
 The **AIS Vessel Data Retrieval** project consists of a python-based Jupyter-notebook designed for the analysis and visualization of Automatic Identification System (AIS) data, utilizing historical data from the [NOAA AIS Data](https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2020/index.html) historical data. The user can go freely to the website and download them, as it is done in previous repositories. 
 
-The dataset analyzed in this case study pertains to January 1, 2020, and has undergone data cleaning and visualization processes, employing tools such as Folium and other Python libraries such as Pandas or Numpy to explore specific cases.
+The dataset analyzed in this case study pertains to January 1, 2020, and has undergone data cleaning and visualization processes, employing tools such as Folium and other Python libraries (Pandas and Numpy) to explore specific cases.
 
 
 This project includes a tool to obtain details they cannot be seen or provided in AIS data when part of the table, mainly the static part (Vessel name - IMO - CallSign - etc) is lost or we have NaN values on it. The inspiring point to create this code is the fact that the MMSI is changeable over time and although the number of vessels which  exchange her nationality is small comparing to the rest of the whole fleet (second hand market most probably), MMSI number cannot be the value to rely on and identify the ship we want to analyze. For this purpose it is better to take a look at IMO number (permanent value).The idea behind is to cross check the MMSI with the IMO associated by means of another source of information. 
