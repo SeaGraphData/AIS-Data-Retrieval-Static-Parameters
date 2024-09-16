@@ -1,4 +1,4 @@
-# AIS Data Retrieval Tool for Missed Static Parameters using Web Scraping Methodolog
+# AIS Data Retrieval Tool for Missed Static Parameters using Web Scraping Methodology
 
 The **AIS Vessel Data Retrieval** project consists of a python-based Jupyter-notebook 
 designed to analyze and Visualize AIS data using the [NOAA AIS Data](https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2020/index.html) historical data. The files are given in csv format and because they are quite big (around 3 GB each), it could not be possible to attach here. However, the user can go freely to the website and download them, as it is done in previous repositories.
