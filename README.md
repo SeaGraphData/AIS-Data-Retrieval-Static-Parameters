@@ -4,7 +4,7 @@ The **AIS Vessel Data Retrieval** project consists of a python-based Jupyter-not
 
 The dataset analyzed in this case study pertains to January 1, 2020, and has undergone data cleaning and visualization processes, employing tools such as Folium and other Python libraries (Pandas and Numpy) to explore specific cases.
 
-Since AIS data, which are real-world data, frequently lack particular attribute values or trends and are frequently inconsistent, erroneous (contains mistakes or outliers), and incomplete [1][2], this project introduces a tool to recover missing or unavailable static AIS data fields, such as vessel name, IMO number, call sign, and other identifying parameters. The motivation behind this approach lies in the mutable nature of the Maritime Mobile Service Identity (MMSI) number, which can change over time. Although the frequency of vessels changing nationality is relatively low compared to the total global fleet (primarily through the second-hand market), reliance on the MMSI alone may yield inaccurate results when identifying vessels. Instead, the International Maritime Organization (IMO) number, a permanent and unique identifier, is preferred for vessel tracking. The proposed method leverages cross-referencing between the MMSI and IMO numbers using external sources of information to enhance data reliability.
+Since AIS data, which are real-world data, frequently lack particular attribute values or trends and are frequently inconsistent, erroneous (contains mistakes or outliers), and incomplete [1][2][3], this project introduces a tool to recover missing or unavailable static AIS data fields, such as vessel name, IMO number, call sign, and other identifying parameters. The motivation behind this approach lies in the mutable nature of the Maritime Mobile Service Identity (MMSI) number, which can change over time. Although the frequency of vessels changing nationality is relatively low compared to the total global fleet (primarily through the second-hand market), reliance on the MMSI alone may yield inaccurate results when identifying vessels. Instead, the International Maritime Organization (IMO) number, a permanent and unique identifier, is preferred for vessel tracking. The proposed method leverages cross-referencing between the MMSI and IMO numbers using external sources of information to enhance data reliability.
 
 
 To achieve this, we implement web scraping techniques, following the methodology outlined in a previous repository titled [Web Scraping and Vessel Data](https://github.com/SeaGraphData/Web-Scraping-ShipInfo).  This enables cross-validation of the AIS dataset with MMSI-IMO relationships sourced from external databases, facilitating the retrieval of accurate vessel information, such as the IMO number, current vessel name, and, where applicable, vessel type.
@@ -19,6 +19,9 @@ This approach demonstrates a robust framework for overcoming limitations in AIS 
 
 [2] Serkan A., Marco M. and Patrizia T. (2019). *Big Data on Vessel Traffic: Nowcasting Trade Flows in Real Time*. 
 IMF Working Paper. 2019,. https://www.imf.org/en/Publications/WP/Issues/2019/12/13/Big-Data-on-Vessel-Traffic-Nowcasting-Trade-Flows-in-Real-Time-48837
+
+[3] Mikko L. and Floris G.(2019). *Big maritime data for the Baltic Sea with a focus on the winter navigation system*. 
+Elsevier Marine Policy. 2019, 104. https://doi.org/10.1016/j.marpol.2019.02.038
 
 
 ## Authors
