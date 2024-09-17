@@ -17,6 +17,10 @@ This approach demonstrates a robust framework for overcoming limitations in AIS 
 
 [1] Farshad F., Florent N., Fahimeh F., Paavo N., Javad S., Jukka H. and Csaba R.(2023). *A Comprehensive Study of Clustering-Based Techniques for Detecting Abnormal Vessel Behavior*. *. Remote Sens. 2023, 15, 1477. https://doi.org/10.3390/rs15061477
 
+[2] Serkan A., Marco M. and Patrizia T. (2019). *Big Data on Vessel Traffic: Nowcasting Trade Flows in Real Time*. 
+IMF Working Paper. 2019,. https://www.imf.org/en/Publications/WP/Issues/2019/12/13/Big-Data-on-Vessel-Traffic-Nowcasting-Trade-Flows-in-Real-Time-48837
+
+
 ## Authors
 
 * [**Juan Fernandez**](mailto://juan.fernandez.sea@gmail.com) - [Linkedin](https://www.linkedin.com/in/juan-fernandez-martinez/)
