@@ -15,7 +15,7 @@ This approach demonstrates a robust framework for overcoming limitations in AIS 
 
 ## References
 
-Farshad F., Florent N., Fahimeh F., Paavo N., Javad S., Jukka H. and Csaba R.(2023). *A Comprehensive Study of Clustering-Based Techniques for Detecting Abnormal Vessel Behavior*. *. Remote Sens. 2023, 15, 1477. https://doi.org/10.3390/rs15061477
+[1] Farshad F., Florent N., Fahimeh F., Paavo N., Javad S., Jukka H. and Csaba R.(2023). *A Comprehensive Study of Clustering-Based Techniques for Detecting Abnormal Vessel Behavior*. *. Remote Sens. 2023, 15, 1477. https://doi.org/10.3390/rs15061477
 
 ## Authors
 
